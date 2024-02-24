@@ -1,0 +1,42 @@
+nav {
+    display: flex;
+    padding-top: 2rem;
+    background-color: rgb(20, 9, 175);
+    padding-bottom: 2rem;
+}
+
+.nav_logo {
+    padding-left: 3rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.permalinks {
+    display: flex;
+    gap: 2rem;
+    margin-left: 63rem;
+    justify-content: end;
+    flex-wrap: wrap;
+    color: black;
+}
+
+/* -------------- MEDIA QUERIES(MEDIUM DEVICES) -------------- */
+
+@media screen and (max-width: 1024px) {
+    nav {
+      width: var(--container-width-md);
+    }
+  }
+  
+  /* -------------- MEDIA QUERIES(SMALL DEVICES) -------------- */
+  
+  @media screen and (max-width: 600px) {
+    nav {
+      width: var(--container-width-sm);
+    }
+      
+      .permalinks {
+        gap: 1.5rem;
+        flex-direction: column;
+    }
+  }
