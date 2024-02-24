@@ -47,10 +47,10 @@ h3 {
   
   @media screen and (max-width: 600px) {
     header {
-      height: 220vh;
+      height: 200vh;
     }
 
     .para2 {
-        height: 150vh;
+        height: 140vh;
     }
   }
