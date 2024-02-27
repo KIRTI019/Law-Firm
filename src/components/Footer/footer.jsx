@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer>
       <a href="#" className="footer_logo">
-        Kirti Kumar
+        Ray Legal
       </a>
 
       <div className="footer_socials">
@@ -24,7 +24,7 @@ const Footer = () => {
       </div>
 
       <div className="footer_copyright">
-        <small>&copy; Kirti Kumar. All rights reserved</small>
+        <small>&copy; Ray Legal. All rights reserved</small>
       </div>
     </footer>
   );
