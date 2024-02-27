@@ -47,7 +47,7 @@ const Contact = () => {
           <article className="contact_option">
             <RiMessageLine />
             <h4>Messenger</h4>
-            <h5>Kirti Kumar</h5>
+            <h5>Adv Rupesh Kumar</h5>
             <a href="https://www.messenger.com/t/100041114291951" target="_blank">
               Send Message
             </a>
