@@ -38,7 +38,7 @@ const Contact = () => {
         <div className="contact_options">
           <article className="contact_option">
             <FaInstagram />
-            <h4>Email</h4>
+            <h4>Instagram</h4>
             <h5>advocate_rupesh</h5>
             <a href="https://www.instagram.com/advocate_rupesh/" target="_blank">
               Send Message
@@ -48,7 +48,7 @@ const Contact = () => {
             <RiMessageLine />
             <h4>Messenger</h4>
             <h5>Kirti Kumar</h5>
-            <a href="https://m.me/kirti.kumar" target="_blank">
+            <a href="https://www.messenger.com/t/100041114291951" target="_blank">
               Send Message
             </a>
           </article>
