@@ -4,27 +4,10 @@
     gap: 15%;
 }
 
-.about_me {
-    width: 100%;
-    aspect-ratio: 1/1;
-    border-radius: 2rem;
-    background: linear-gradient(45deg,
-    transparent,
-    var(--color-primary),
-    transparent);
-display: grid;
-place-items: center;
-}
-
 .about_me-image {
-    border-radius: 2rem;
     overflow: hidden;
-    transform: rotate(10deg);
-    transition: var(--transition);
-}
-
-.about_me-image:hover {
-    transform: rotate(0);
+    height: 300px;
+    width: 400px;
 }
 
 .about_cards {
@@ -76,7 +59,7 @@ place-items: center;
         gap: 0;
     }
 
-    .about_me {
+    .about_me-image {
         width: 50%;
         margin: 2rem auto 4rem;
     }
@@ -89,7 +72,7 @@ place-items: center;
 /* -------------- MEDIA QUERIES(SMALL DEVICES) -------------- */
 
 @media screen and (max-width: 600px) {
-    .about_me {
+    .about_me-image {
         width: 65%;
         margin: 0 auto 3rem;
     }
