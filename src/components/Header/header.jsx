@@ -8,6 +8,11 @@ const header = () => {
         <div className='para1'>
         <h1>Navigate Legal Complexities</h1>
         <h3>Navigating legal challenges with unmatched expertise. Ensure justice is on your side with Delhi’s top law firm.</h3>
+        <div className='head'>
+        <a href="#contact" className="btn btn-primary">
+            Consult Here
+          </a>
+        </div>
         </div>
         <div className='para2'>
           <h4>
