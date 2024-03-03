@@ -41,12 +41,10 @@ nav {
     nav {
       width: var(--container-width-sm);
       height: 15vh;
-      position: fixed;
     }
 
     .nav_logo {
       padding-left: 1.3rem;
-      position: fixed;
     }
 
     .permalinks {
@@ -66,7 +64,6 @@ nav {
       background-color: white;
       height: 40rem;
       text-align: center;
-      width: auto;
     }
 
     .slide {
