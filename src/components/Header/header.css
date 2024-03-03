@@ -1,64 +1,65 @@
 header {
-    padding-top: 7rem;
-    overflow: hidden;
+  padding-top: 7rem;
+  overflow: hidden;
 }
 
 .header_container {
-    height: 100%;
-    position: relative;
+  height: 100%;
+  position: relative;
 }
 
 h3 {
-    padding-top: 3rem;
+  padding-top: 3rem;
 }
 
 .para1 {
-    height: 25rem;
-    align-content: center;
-    padding-left: 3rem;
-    padding-right: 3rem;
+  height: 25rem;
+  align-content: center;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 .para2 {
-    color: black;
-    background-color: var(--color-white);
-    padding-top: 4rem;
-    height: 300px;
-    background-color: white;
-    padding-left: 4rem;
-    padding-right: 2rem;
-    font-weight: 500;
-    font-size: 1.2rem;
+  color: black;
+  background-color: var(--color-white);
+  padding-top: 4rem;
+  height: 300px;
+  background-color: white;
+  padding-left: 4rem;
+  padding-right: 2rem;
+  font-weight: 500;
+  font-size: 1.2rem;
 }
 
 .head {
-    padding-top: 3rem;
+  padding-top: 3rem;
 }
 
 /* -------------- MEDIA QUERIES(MEDIUM DEVICES) -------------- */
-  
+
 @media screen and (max-width: 1024px) {
-    header {
-      height: 150vh;
-    }
-
-    .para2 {
-        height: 120vh;
-    }
+  header {
+    height: 150vh;
   }
-  
-  /* -------------- MEDIA QUERIES(SMALL DEVICES) -------------- */
-  
-  @media screen and (max-width: 600px) {
-    header {
-      height: 220vh;
-    }
 
-    .para2 {
-        height: 150vh;
-    }
-
-    .head {
-        padding-top: 1rem;
-    }
+  .para2 {
+    height: 120vh;
   }
+}
+
+/* -------------- MEDIA QUERIES(SMALL DEVICES) -------------- */
+
+@media screen and (max-width: 600px) {
+  header {
+    height: 230vh;
+  }
+
+  .para1 {
+    padding-top: -2rem;
+    height: 80vh;
+  }
+
+  .para2 {
+    height: 150vh;
+  }
+}
