@@ -13,10 +13,11 @@ h3 {
 }
 
 .para1 {
-  height: 15rem;
+  height: 20rem;
   align-content: center;
   padding-left: 3rem;
   padding-right: 3rem;
+  padding-top: -6rem;
 }
 
 .para2 {
