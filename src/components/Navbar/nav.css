@@ -41,6 +41,7 @@ nav {
     nav {
       width: var(--container-width-sm);
       height: 15vh;
+      position: fixed;
     }
 
     .nav_logo {
