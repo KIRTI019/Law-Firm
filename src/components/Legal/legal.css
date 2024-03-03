@@ -1,34 +1,68 @@
 .part {
-    display: flex;
-    padding-top: 5rem;
+  display: flex;
+  padding-top: 5rem;
 }
 
 .part1 {
-    text-align: center;
-    padding-top: 5rem;
+  text-align: center;
+  padding-top: 5rem;
 }
 
 .heading {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .paragraph {
-    padding-top: 2rem;
-    margin-left: 9.6rem;
-    margin-right: 8rem;
-    font-size: 1rem;
-    color: var(--color-light);
-    font-weight: 300;
-    font-size: 1.1rem;
+  padding-top: 2rem;
+  margin-left: 9.6rem;
+  margin-right: 8rem;
+  color: var(--color-light);
+  font-weight: 300;
+  font-size: 1.1rem;
 }
 
 .part2 {
-    padding-right: 5rem;
-    height: 450px;
-    width: 700px;
-    object-fit: contain;
+  padding-right: 5rem;
+  height: 450px;
+  width: 700px;
+  object-fit: contain;
 }
 
 .butt {
-    margin-top: 4rem;
+  margin-top: 4rem;
+}
+
+/* -------------- MEDIA QUERIES(MEDIUM DEVICES) -------------- */
+
+@media screen and (max-width: 1024px) {
+  .part {
+    width: var(--container-width-md);
+  }
+}
+
+/* -------------- MEDIA QUERIES(SMALL DEVICES) -------------- */
+
+@media screen and (max-width: 600px) {
+  .part {
+    width: var(--container-width-sm);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .part1 {
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .paragraph {
+    font-weight: 300;
+    font-size: 1rem;
+    margin-left: 5rem;
+    margin-right: 4rem;
+  }
+
+  .part2 {
+    margin: 3rem 0 -8rem 5.7rem;
+    width: 75%;
+  } 
 }
