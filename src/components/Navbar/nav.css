@@ -20,11 +20,18 @@ nav {
     color: black;
 }
 
+.draw {
+  display: none;
+}
+
 /* -------------- MEDIA QUERIES(MEDIUM DEVICES) -------------- */
 
 @media screen and (max-width: 1024px) {
     nav {
       width: var(--container-width-md);
+    }
+
+    .draw {
     }
   }
   
@@ -33,10 +40,16 @@ nav {
   @media screen and (max-width: 600px) {
     nav {
       width: var(--container-width-sm);
+      height: 15vh;
     }
-      
-      .permalinks {
-        gap: 1.5rem;
-        flex-direction: column;
+
+    .permalinks {
+      display: none;
+    }
+
+    .draw {
+      margin-left: 12rem;
+      display: block;
+      background-color: transparent;
     }
   }
