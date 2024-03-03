@@ -43,14 +43,34 @@ nav {
       height: 15vh;
     }
 
+    .nav_logo {
+      padding-left: 1.3rem;
+      position: fixed;
+    }
+
     .permalinks {
       display: none;
     }
 
     .draw {
-      margin-left: 12rem;
+      margin-left: 20rem;
       display: block;
       background-color: transparent;
       padding-bottom: 0.5rem;
+    }
+    
+    .list {
+      display: flex;
+      flex-direction: column;
+      background-color: white;
+      height: 40rem;
+      text-align: center;
+      width: auto;
+    }
+
+    .slide {
+      padding-left: -1rem;
+      margin-left: -1rem;
+      background-color: white;
     }
   }
