@@ -35,7 +35,23 @@ const Nav = () => {
       <button className="draw" onClick={toggleMobileMenu}>{isMobileMenuOpen ? <FaTimes /> : <FaBars />}</button>
 
       {isMobileMenuOpen && (
-        <drawer />
+        <div className="slide">
+          <button onClick={toggleMobileMenu}><FaTimes /></button>
+          <ul className="list">
+          <li>
+          <a href="#">HOME</a>
+          </li>
+          <li>
+          <a href="#about">ABOUT</a>
+          </li>
+          <li>
+          <a href="#services">SERVICES</a>
+          </li>
+          <li>
+          <a href="#contact">CONTACT</a>
+          </li>
+        </ul>
+        </div>
       )}
     </nav>
   );
