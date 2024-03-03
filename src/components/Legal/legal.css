@@ -57,12 +57,12 @@
   .paragraph {
     font-weight: 300;
     font-size: 1rem;
-    margin-left: 5rem;
-    margin-right: 4rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
   }
 
   .part2 {
-    margin: 1.5rem 0 -8rem 1.5rem;
+    margin: 3rem 0 -8rem 5.7rem;
     width: 75%;
   } 
 }
